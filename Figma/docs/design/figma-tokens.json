@@ -1,212 +1,212 @@
 {
-  "fileKey": "2ek9bkIz5ldyhjZnnvIuNu",
+  "fileKey": null,
   "version": 2,
-  "status": "Current approved compact violet/graphite design",
-  "updatedAt": "2026-10-14",
-  "codeSyntaxStatus": "Proposed CSS mapping; no production frontend installed",
+  "status": "example",
+  "updatedAt": null,
+  "codeSyntaxStatus": "Proposed Web CSS mappings; adapt to the actual technology stack",
   "collections": [
     {
-      "id": "VariableCollectionId:22:253",
-      "name": "777 · 当前紫灰语义与尺寸",
+      "id": "example:collection:1",
+      "name": "Example semantics and dimensions",
       "modes": [
         {
           "name": "Light",
-          "modeId": "22:1"
+          "modeId": "example:mode:1:1"
         }
       ]
     },
     {
-      "id": "VariableCollectionId:46:688",
-      "name": "777 · 当前原始色",
+      "id": "example:collection:2",
+      "name": "Example palette",
       "modes": [
         {
           "name": "Value",
-          "modeId": "46:0"
+          "modeId": "example:mode:2:1"
         }
       ]
     },
     {
-      "id": "VariableCollectionId:3:61",
-      "name": "777 · 共用尺寸",
+      "id": "example:collection:3",
+      "name": "Example shared dimensions",
       "modes": [
         {
           "name": "Value",
-          "modeId": "3:5"
+          "modeId": "example:mode:3:1"
         }
       ]
     }
   ],
   "variables": [
     {
-      "id": "VariableID:3:101",
+      "id": "example:variable:1",
       "name": "space/4",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 4
+        "example:mode:3:1": 4
       },
       "codeSyntax": {
         "WEB": "var(--space-4)"
       }
     },
     {
-      "id": "VariableID:3:102",
+      "id": "example:variable:2",
       "name": "space/8",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 8
+        "example:mode:3:1": 8
       },
       "codeSyntax": {
         "WEB": "var(--space-8)"
       }
     },
     {
-      "id": "VariableID:3:103",
+      "id": "example:variable:3",
       "name": "space/12",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 12
+        "example:mode:3:1": 12
       },
       "codeSyntax": {
         "WEB": "var(--space-12)"
       }
     },
     {
-      "id": "VariableID:3:104",
+      "id": "example:variable:4",
       "name": "space/16",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 16
+        "example:mode:3:1": 16
       },
       "codeSyntax": {
         "WEB": "var(--space-16)"
       }
     },
     {
-      "id": "VariableID:3:105",
+      "id": "example:variable:5",
       "name": "space/24",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 24
+        "example:mode:3:1": 24
       },
       "codeSyntax": {
         "WEB": "var(--space-24)"
       }
     },
     {
-      "id": "VariableID:3:106",
+      "id": "example:variable:6",
       "name": "space/32",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 32
+        "example:mode:3:1": 32
       },
       "codeSyntax": {
         "WEB": "var(--space-32)"
       }
     },
     {
-      "id": "VariableID:3:107",
+      "id": "example:variable:7",
       "name": "space/48",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "3:5": 48
+        "example:mode:3:1": 48
       },
       "codeSyntax": {
         "WEB": "var(--space-48)"
       }
     },
     {
-      "id": "VariableID:3:108",
+      "id": "example:variable:8",
       "name": "radius/6",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "CORNER_RADIUS"
       ],
       "values": {
-        "3:5": 6
+        "example:mode:3:1": 6
       },
       "codeSyntax": {
         "WEB": "var(--radius-6)"
       }
     },
     {
-      "id": "VariableID:3:109",
+      "id": "example:variable:9",
       "name": "radius/10",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "CORNER_RADIUS"
       ],
       "values": {
-        "3:5": 10
+        "example:mode:3:1": 10
       },
       "codeSyntax": {
         "WEB": "var(--radius-10)"
       }
     },
     {
-      "id": "VariableID:3:110",
+      "id": "example:variable:10",
       "name": "radius/16",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "CORNER_RADIUS"
       ],
       "values": {
-        "3:5": 16
+        "example:mode:3:1": 16
       },
       "codeSyntax": {
         "WEB": "var(--radius-16)"
       }
     },
     {
-      "id": "VariableID:3:111",
+      "id": "example:variable:11",
       "name": "control/40",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:3:61",
+      "collectionId": "example:collection:3",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
       "values": {
-        "3:5": 40
+        "example:mode:3:1": 40
       },
       "codeSyntax": {
         "WEB": "var(--control-40)"
       }
     },
     {
-      "id": "VariableID:22:254",
-      "name": "v2/canvas",
+      "id": "example:variable:12",
+      "name": "semantic/canvas",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -214,9 +214,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:697"
+          "id": "example:variable:37"
         }
       },
       "codeSyntax": {
@@ -224,10 +224,10 @@
       }
     },
     {
-      "id": "VariableID:22:255",
-      "name": "v2/white",
+      "id": "example:variable:13",
+      "name": "semantic/white",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -235,9 +235,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:698"
+          "id": "example:variable:38"
         }
       },
       "codeSyntax": {
@@ -245,10 +245,10 @@
       }
     },
     {
-      "id": "VariableID:22:256",
-      "name": "v2/ink",
+      "id": "example:variable:14",
+      "name": "semantic/ink",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -256,9 +256,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:699"
+          "id": "example:variable:39"
         }
       },
       "codeSyntax": {
@@ -266,10 +266,10 @@
       }
     },
     {
-      "id": "VariableID:22:257",
-      "name": "v2/muted",
+      "id": "example:variable:15",
+      "name": "semantic/muted",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -277,9 +277,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:700"
+          "id": "example:variable:40"
         }
       },
       "codeSyntax": {
@@ -287,10 +287,10 @@
       }
     },
     {
-      "id": "VariableID:22:258",
-      "name": "v2/faint",
+      "id": "example:variable:16",
+      "name": "semantic/faint",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -298,9 +298,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:701"
+          "id": "example:variable:41"
         }
       },
       "codeSyntax": {
@@ -308,10 +308,10 @@
       }
     },
     {
-      "id": "VariableID:22:259",
-      "name": "v2/line",
+      "id": "example:variable:17",
+      "name": "semantic/line",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -319,9 +319,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:702"
+          "id": "example:variable:42"
         }
       },
       "codeSyntax": {
@@ -329,10 +329,10 @@
       }
     },
     {
-      "id": "VariableID:22:260",
-      "name": "v2/soft",
+      "id": "example:variable:18",
+      "name": "semantic/soft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -340,9 +340,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:703"
+          "id": "example:variable:43"
         }
       },
       "codeSyntax": {
@@ -350,10 +350,10 @@
       }
     },
     {
-      "id": "VariableID:22:261",
-      "name": "v2/accent",
+      "id": "example:variable:19",
+      "name": "semantic/accent",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -361,9 +361,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:704"
+          "id": "example:variable:44"
         }
       },
       "codeSyntax": {
@@ -371,10 +371,10 @@
       }
     },
     {
-      "id": "VariableID:22:262",
-      "name": "v2/accentSoft",
+      "id": "example:variable:20",
+      "name": "semantic/accentSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -382,9 +382,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:705"
+          "id": "example:variable:45"
         }
       },
       "codeSyntax": {
@@ -392,10 +392,10 @@
       }
     },
     {
-      "id": "VariableID:22:263",
-      "name": "v2/accentInk",
+      "id": "example:variable:21",
+      "name": "semantic/accentInk",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -403,9 +403,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:706"
+          "id": "example:variable:46"
         }
       },
       "codeSyntax": {
@@ -413,10 +413,10 @@
       }
     },
     {
-      "id": "VariableID:22:264",
-      "name": "v2/dark",
+      "id": "example:variable:22",
+      "name": "semantic/dark",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -424,9 +424,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:707"
+          "id": "example:variable:47"
         }
       },
       "codeSyntax": {
@@ -434,10 +434,10 @@
       }
     },
     {
-      "id": "VariableID:22:265",
-      "name": "v2/darkMuted",
+      "id": "example:variable:23",
+      "name": "semantic/darkMuted",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -445,9 +445,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:708"
+          "id": "example:variable:48"
         }
       },
       "codeSyntax": {
@@ -455,10 +455,10 @@
       }
     },
     {
-      "id": "VariableID:22:266",
-      "name": "v2/success",
+      "id": "example:variable:24",
+      "name": "semantic/success",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -466,9 +466,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:709"
+          "id": "example:variable:49"
         }
       },
       "codeSyntax": {
@@ -476,62 +476,62 @@
       }
     },
     {
-      "id": "VariableID:22:267",
-      "name": "v2/radius8",
+      "id": "example:variable:25",
+      "name": "semantic/radius8",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "CORNER_RADIUS"
       ],
       "values": {
-        "22:1": 8
+        "example:mode:1:1": 8
       },
       "codeSyntax": {}
     },
     {
-      "id": "VariableID:22:268",
-      "name": "v2/radius16",
+      "id": "example:variable:26",
+      "name": "semantic/radius16",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "CORNER_RADIUS"
       ],
       "values": {
-        "22:1": 16
+        "example:mode:1:1": 16
       },
       "codeSyntax": {}
     },
     {
-      "id": "VariableID:22:269",
-      "name": "v2/space20",
+      "id": "example:variable:27",
+      "name": "semantic/space20",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "22:1": 20
+        "example:mode:1:1": 20
       },
       "codeSyntax": {}
     },
     {
-      "id": "VariableID:22:270",
-      "name": "v2/space40",
+      "id": "example:variable:28",
+      "name": "semantic/space40",
       "type": "FLOAT",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "GAP"
       ],
       "values": {
-        "22:1": 40
+        "example:mode:1:1": 40
       },
       "codeSyntax": {}
     },
     {
-      "id": "VariableID:46:689",
-      "name": "v2/hover",
+      "id": "example:variable:29",
+      "name": "semantic/hover",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -539,9 +539,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:710"
+          "id": "example:variable:50"
         }
       },
       "codeSyntax": {
@@ -549,10 +549,10 @@
       }
     },
     {
-      "id": "VariableID:46:690",
-      "name": "v2/pressed",
+      "id": "example:variable:30",
+      "name": "semantic/pressed",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -560,9 +560,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:711"
+          "id": "example:variable:51"
         }
       },
       "codeSyntax": {
@@ -570,10 +570,10 @@
       }
     },
     {
-      "id": "VariableID:46:691",
-      "name": "v2/disabled",
+      "id": "example:variable:31",
+      "name": "semantic/disabled",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -581,9 +581,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:712"
+          "id": "example:variable:52"
         }
       },
       "codeSyntax": {
@@ -591,10 +591,10 @@
       }
     },
     {
-      "id": "VariableID:46:692",
-      "name": "v2/disabledText",
+      "id": "example:variable:32",
+      "name": "semantic/disabledText",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -602,9 +602,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:713"
+          "id": "example:variable:53"
         }
       },
       "codeSyntax": {
@@ -612,10 +612,10 @@
       }
     },
     {
-      "id": "VariableID:46:693",
-      "name": "v2/danger",
+      "id": "example:variable:33",
+      "name": "semantic/danger",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -623,9 +623,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:714"
+          "id": "example:variable:54"
         }
       },
       "codeSyntax": {
@@ -633,10 +633,10 @@
       }
     },
     {
-      "id": "VariableID:46:694",
-      "name": "v2/dangerSoft",
+      "id": "example:variable:34",
+      "name": "semantic/dangerSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -644,9 +644,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:715"
+          "id": "example:variable:55"
         }
       },
       "codeSyntax": {
@@ -654,10 +654,10 @@
       }
     },
     {
-      "id": "VariableID:46:695",
-      "name": "v2/warning",
+      "id": "example:variable:35",
+      "name": "semantic/warning",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -665,9 +665,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:716"
+          "id": "example:variable:56"
         }
       },
       "codeSyntax": {
@@ -675,10 +675,10 @@
       }
     },
     {
-      "id": "VariableID:46:696",
-      "name": "v2/warningSoft",
+      "id": "example:variable:36",
+      "name": "semantic/warningSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:22:253",
+      "collectionId": "example:collection:1",
       "scopes": [
         "FRAME_FILL",
         "SHAPE_FILL",
@@ -686,9 +686,9 @@
         "STROKE_COLOR"
       ],
       "values": {
-        "22:1": {
+        "example:mode:1:1": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:46:717"
+          "id": "example:variable:57"
         }
       },
       "codeSyntax": {
@@ -696,13 +696,13 @@
       }
     },
     {
-      "id": "VariableID:46:697",
+      "id": "example:variable:37",
       "name": "palette/canvas",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.9607843160629272,
           "g": 0.9647058844566345,
           "b": 0.9725490212440491,
@@ -714,13 +714,13 @@
       }
     },
     {
-      "id": "VariableID:46:698",
+      "id": "example:variable:38",
       "name": "palette/white",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 1,
           "g": 1,
           "b": 1,
@@ -732,13 +732,13 @@
       }
     },
     {
-      "id": "VariableID:46:699",
+      "id": "example:variable:39",
       "name": "palette/ink",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.1411764770746231,
           "g": 0.14901961386203766,
           "b": 0.1882352977991104,
@@ -750,13 +750,13 @@
       }
     },
     {
-      "id": "VariableID:46:700",
+      "id": "example:variable:40",
       "name": "palette/muted",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.46666666865348816,
           "g": 0.48627451062202454,
           "b": 0.545098066329956,
@@ -768,13 +768,13 @@
       }
     },
     {
-      "id": "VariableID:46:701",
+      "id": "example:variable:41",
       "name": "palette/faint",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.6392157077789307,
           "g": 0.6549019813537598,
           "b": 0.6980392336845398,
@@ -786,13 +786,13 @@
       }
     },
     {
-      "id": "VariableID:46:702",
+      "id": "example:variable:42",
       "name": "palette/line",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.9058823585510254,
           "g": 0.9137254953384399,
           "b": 0.9372549057006836,
@@ -804,13 +804,13 @@
       }
     },
     {
-      "id": "VariableID:46:703",
+      "id": "example:variable:43",
       "name": "palette/soft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.9686274528503418,
           "g": 0.9725490212440491,
           "b": 0.9803921580314636,
@@ -822,13 +822,13 @@
       }
     },
     {
-      "id": "VariableID:46:704",
+      "id": "example:variable:44",
       "name": "palette/accent",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.3333333432674408,
           "g": 0.3450980484485626,
           "b": 0.9098039269447327,
@@ -840,13 +840,13 @@
       }
     },
     {
-      "id": "VariableID:46:705",
+      "id": "example:variable:45",
       "name": "palette/accentSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.9333333373069763,
           "g": 0.9333333373069763,
           "b": 1,
@@ -858,13 +858,13 @@
       }
     },
     {
-      "id": "VariableID:46:706",
+      "id": "example:variable:46",
       "name": "palette/accentInk",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.2862745225429535,
           "g": 0.2705882489681244,
           "b": 0.7215686440467834,
@@ -876,13 +876,13 @@
       }
     },
     {
-      "id": "VariableID:46:707",
+      "id": "example:variable:47",
       "name": "palette/dark",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.14901961386203766,
           "g": 0.16078431904315948,
           "b": 0.2078431397676468,
@@ -894,13 +894,13 @@
       }
     },
     {
-      "id": "VariableID:46:708",
+      "id": "example:variable:48",
       "name": "palette/darkMuted",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.7215686440467834,
           "g": 0.7411764860153198,
           "b": 0.8117647171020508,
@@ -912,13 +912,13 @@
       }
     },
     {
-      "id": "VariableID:46:709",
+      "id": "example:variable:49",
       "name": "palette/success",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.14901961386203766,
           "g": 0.4627451002597809,
           "b": 0.35686275362968445,
@@ -930,13 +930,13 @@
       }
     },
     {
-      "id": "VariableID:46:710",
+      "id": "example:variable:50",
       "name": "palette/hover",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.2823529541492462,
           "g": 0.29411765933036804,
           "b": 0.800000011920929,
@@ -948,13 +948,13 @@
       }
     },
     {
-      "id": "VariableID:46:711",
+      "id": "example:variable:51",
       "name": "palette/pressed",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.23529411852359772,
           "g": 0.24705882370471954,
           "b": 0.686274528503418,
@@ -966,13 +966,13 @@
       }
     },
     {
-      "id": "VariableID:46:712",
+      "id": "example:variable:52",
       "name": "palette/disabled",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.9254902005195618,
           "g": 0.9333333373069763,
           "b": 0.9529411792755127,
@@ -984,13 +984,13 @@
       }
     },
     {
-      "id": "VariableID:46:713",
+      "id": "example:variable:53",
       "name": "palette/disabledText",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.6196078658103943,
           "g": 0.6392157077789307,
           "b": 0.686274528503418,
@@ -1002,13 +1002,13 @@
       }
     },
     {
-      "id": "VariableID:46:714",
+      "id": "example:variable:54",
       "name": "palette/danger",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.7215686440467834,
           "g": 0.239215686917305,
           "b": 0.29019609093666077,
@@ -1020,13 +1020,13 @@
       }
     },
     {
-      "id": "VariableID:46:715",
+      "id": "example:variable:55",
       "name": "palette/dangerSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 1,
           "g": 0.9450980424880981,
           "b": 0.9490196108818054,
@@ -1038,13 +1038,13 @@
       }
     },
     {
-      "id": "VariableID:46:716",
+      "id": "example:variable:56",
       "name": "palette/warning",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 0.5803921818733215,
           "g": 0.3960784375667572,
           "b": 0.07058823853731155,
@@ -1056,13 +1056,13 @@
       }
     },
     {
-      "id": "VariableID:46:717",
+      "id": "example:variable:57",
       "name": "palette/warningSoft",
       "type": "COLOR",
-      "collectionId": "VariableCollectionId:46:688",
+      "collectionId": "example:collection:2",
       "scopes": [],
       "values": {
-        "46:0": {
+        "example:mode:2:1": {
           "r": 1,
           "g": 0.9725490212440491,
           "b": 0.9058823585510254,
@@ -1076,8 +1076,8 @@
   ],
   "textStyles": [
     {
-      "id": "S:4fbb81c6a2c0756478fee3489a9c0e320f724126,",
-      "name": "777/v2/section",
+      "id": "example:text-style:1",
+      "name": "example/section",
       "font": {
         "family": "Noto Sans SC",
         "style": "Medium",
@@ -1092,8 +1092,8 @@
       }
     },
     {
-      "id": "S:3471508026c60632325d109c5c322f9c8ff5d592,",
-      "name": "777/v2/body",
+      "id": "example:text-style:2",
+      "name": "example/body",
       "font": {
         "family": "Noto Sans SC",
         "style": "Regular",
@@ -1108,8 +1108,8 @@
       }
     },
     {
-      "id": "S:7e79244d6c8f14d247202c14653b40e4f29df94a,",
-      "name": "777/v2/label",
+      "id": "example:text-style:3",
+      "name": "example/label",
       "font": {
         "family": "Noto Sans SC",
         "style": "Medium",
@@ -1124,8 +1124,8 @@
       }
     },
     {
-      "id": "S:a40c26985b41cf8bae870a7dd6408adc97af067d,",
-      "name": "777/v2/caption",
+      "id": "example:text-style:4",
+      "name": "example/caption",
       "font": {
         "family": "Noto Sans SC",
         "style": "Regular",
@@ -1140,8 +1140,8 @@
       }
     },
     {
-      "id": "S:a6346f6bdf6e0ad31283c65050b8f9f17d408931,",
-      "name": "777/v2/button",
+      "id": "example:text-style:5",
+      "name": "example/button",
       "font": {
         "family": "Noto Sans SC",
         "style": "Medium",
@@ -1156,8 +1156,8 @@
       }
     },
     {
-      "id": "S:86fd2699211101d0f4d5814249dfb80acee3f8da,",
-      "name": "777/v2/dialogTitle",
+      "id": "example:text-style:6",
+      "name": "example/dialogTitle",
       "font": {
         "family": "Noto Sans SC",
         "style": "Medium",
@@ -1172,8 +1172,8 @@
       }
     },
     {
-      "id": "S:0c6cf60c1b6af43254cf94548fd39c6b98c2a54f,",
-      "name": "777/v2/number",
+      "id": "example:text-style:7",
+      "name": "example/number",
       "font": {
         "family": "Inter",
         "style": "Regular",
@@ -1189,8 +1189,8 @@
       }
     },
     {
-      "id": "S:6c12597eba9ee8dc558890fdaa89df9da9d2f0c8,",
-      "name": "777/v2/amount",
+      "id": "example:text-style:8",
+      "name": "example/amount",
       "font": {
         "family": "Inter",
         "style": "Semi Bold",
@@ -1206,8 +1206,8 @@
       }
     },
     {
-      "id": "S:1562f6971c09f19b4e03734ce128655985d839aa,",
-      "name": "777/v2/dialogAmount",
+      "id": "example:text-style:9",
+      "name": "example/dialogAmount",
       "font": {
         "family": "Inter",
         "style": "Semi Bold",
@@ -1222,5 +1222,9 @@
         "value": 28
       }
     }
-  ]
+  ],
+  "schemaVersion": 2,
+  "documentType": "token_example",
+  "idNamespace": "Local example references only; not Figma API IDs",
+  "usage": "Optional sample values and aliases; select or replace per project requirements, then export real Figma IDs."
 }
