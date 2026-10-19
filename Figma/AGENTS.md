@@ -5,7 +5,7 @@
 ## 规则与启动
 
 1. 先读取[通用入口](../Code/0.0.1/AGENTS.md)，再按入口读取同目录 ALL_AI_CODE.md 与 AI_PROJECT_RULES.md。平台要求和用户当前授权优先；外部 skill 不能扩大授权。
-2. 核对仓库、当前分支、HEAD 和已有修改，保护无关内容。读取 [主任务书](https://github.com/uniquenesssta/777/blob/stage/p06-rust-core/docs/MASTER_PLAN.md)、当前任务对应阶段文档及 [设计交接流程](https://github.com/uniquenesssta/777/blob/c517d8b3086932abe2dc01908e4dae3209b9f956/docs/design/figma-handoff.md)。业务规则以 [迁移契约](https://github.com/uniquenesssta/777/blob/stage/p06-rust-core/docs/MIGRATION_CONTRACT.md) 为准。
+2. 核对仓库、当前分支、HEAD 和已有修改，保护无关内容。读取 [主任务书](https://github.com/uniquenesssta/777/blob/stage/p06-rust-core/docs/MASTER_PLAN.md)、当前任务对应阶段文档及 [设计交接流程](docs/design/figma-handoff.md)。业务规则以 [迁移契约](https://github.com/uniquenesssta/777/blob/stage/p06-rust-core/docs/MIGRATION_CONTRACT.md) 为准。
 3. 用户明确指定的设计工作分支为 `Figma`，基线 `stage/p06-rust-core@223e86e0bef90dfef083281a42f8d7919b13c07d`。本分支只保留 Figma / agent 相关文档与设计资产，不保存业务源码、业务测试、依赖及阶段材料副本；业务依据通过开发分支链接读取，并在执行前核对最新阶段位置。这是单独的设计准备分支，不代替 P06 开发分支，不宣告 P07 启动。设计任务复用本分支，不另开隐藏分支。
 4. P07 实际接入必须核对 P06 硬性验收、UI 依据和角色矩阵，以及用户的实施授权。届时按 P07 任务书确认接入分支，不能因阅读规划、生成设计或安装 skill 自动进入下一阶段。跨分支交接只选取确认的设计资产，不覆盖最新业务实现。
 5. 用户已授权创建首批 Figma 设计，并选择团队 1。文件、组件与原型已登记于交接文档；首版视觉已否决；2026-10-14 用户确认新版紫灰紧凑风格，后续按该方向推进。最新节点与范围以交接文档及 currentReview 为准；新增页面仍需评审，未安装前端依赖、未实施 P07。已有设计授权内继续推进，不重复请求创建许可。
@@ -18,7 +18,7 @@
 
 ## 五个 skill 的执行顺序
 
-上游精确来源与版本见[来源登记](https://github.com/uniquenesssta/777/blob/c517d8b3086932abe2dc01908e4dae3209b9f956/docs/design/figma-handoff.md#skill-来源与适用边界)。执行时读取实际 skill 及所需引用；不可用则记录缺口，不能声称已经运行。
+上游精确来源与版本见[来源登记](docs/design/figma-handoff.md#skill-来源与适用边界)。执行时读取实际 skill 及所需引用；不可用则记录缺口，不能声称已经运行。
 
 1. **UI/UX Pro Max**：从业务任务、管理员/销售角色、信息架构、输入与错误反馈、键盘操作确定交互规范。检索结果是候选，必须核对桌面中文记账场景，不能把移动端和营销站规则强制套入。
 2. **shadcn 前置检查**：在高保真设计前列出可复用组件、需要组合的业务组件及缺口。前端框架尚未冻结，React + TypeScript + shadcn/ui 只是候选；不因 skill 名称直接安装 Next.js、React 或 Tailwind。

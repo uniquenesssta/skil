@@ -8,7 +8,7 @@
 | --- | --- |
 | [Code/](Code/) | 现有 AI 软件开发协作规则、原始文档与版本说明 |
 | [Code/0.0.1/](Code/0.0.1/) | 当前优化版本的三份配套规则 |
-| [Figma/](Figma/) | 从 777 仓库提取的 Figma 设计与软件接入规则及来源说明 |
+| [Figma/](Figma/) | 从 777 仓库导入的完整 Figma 规则、交接、许可、状态与 tokens |
 | [AGENTS.md](AGENTS.md) | 本仓库维护时的目录归属与规则加载说明 |
 | [LICENSE](LICENSE) | 仓库许可证 |
 
@@ -27,6 +27,12 @@
 开发规则的使用方式、既有审计结论与历史说明见 [Code/README.md](Code/README.md)。Figma 文件放入 `Figma/`，不与开发规则版本混放。
 
 ## Change Log
+
+### 2026-10-19 — 补齐 Figma 配套文件
+
+- 按用户纠正补齐原 Figma 分支的全部 4 个配套文件，放在 `Figma/docs/design/`，与规则入口组成完整的 5 文件集合。
+- 规则入口恢复目录内交接链接，Figma README 更新完整清单与来源；此条取代上一条仅导入规则、不复制设计状态的范围决定。
+- 验证：4 个导入文件 Git blob SHA 与来源一致，两份 JSON 解析通过，目录内 Markdown 链接目标完整。本次仅迁移文档及设计数据，无构建或 Windows 实机运行验证。
 
 ### 2026-10-19 — 收录 Figma 规则并落实到 main
 

@@ -1,12 +1,20 @@
 # Figma
 
-[AGENTS.md](AGENTS.md) 保存从 uniquenesssta/777 的 Figma 分支提取的 Figma 设计与软件接入规则。
+完整收录 uniquenesssta/777 的 Figma 分支中的 5 个文件，保留原有目录结构。
+
+| 文件 | 职责 |
+| --- | --- |
+| [AGENTS.md](AGENTS.md) | Figma 设计与软件接入规则入口 |
+| [docs/design/figma-handoff.md](docs/design/figma-handoff.md) | 设计交接流程、设计节点与续接记录 |
+| [docs/design/figma-asset-licenses.md](docs/design/figma-asset-licenses.md) | 设计资产许可登记 |
+| [docs/design/figma-state.json](docs/design/figma-state.json) | 设计状态记录 |
+| [docs/design/figma-tokens.json](docs/design/figma-tokens.json) | 设计 tokens |
 
 ## 来源与适用范围
 
-- 来源：[777 / Figma / AGENTS.md](https://github.com/uniquenesssta/777/blob/c517d8b3086932abe2dc01908e4dae3209b9f956/AGENTS.md)。提取日期：2026-10-19；来源提交：`c517d8b3086932abe2dc01908e4dae3209b9f956`。
-- 保留原规则正文和项目约束，仅将通用规则入口改为 [Code/0.0.1/AGENTS.md](../Code/0.0.1/AGENTS.md)，将设计交接的相对链接改为来源提交中的绝对链接。
-- 这是一份针对 777 项目的规则，不是已通用化或已安装的 Skill。文中的项目分支、阶段、历史授权及设计风格属于原项目背景，不构成本规则仓库的执行授权；在其他项目使用前需明确调整适用范围。
-- 设计交接、资产许可、tokens 和状态文件仍由原项目维护，本次不复制其项目数据。实际执行 777 任务时，应核对该项目最新交接记录。
+- 来源：[777 / Figma](https://github.com/uniquenesssta/777/tree/c517d8b3086932abe2dc01908e4dae3209b9f956)；提取日期：2026-10-19；来源提交：`c517d8b3086932abe2dc01908e4dae3209b9f956`。
+- 4 个配套文件与来源逐字节一致；规则入口仅将通用开发规则链接改为 [Code/0.0.1/AGENTS.md](../Code/0.0.1/AGENTS.md)，设计交接使用目录内相对链接。
+- 文件包含 777 项目的分支、阶段、历史授权、设计风格和状态，保留原始内容不代表它们自动成为本仓库或其他项目的执行授权，也不代表已安装 Skill。
+- 本次完整导入到 skil/main；777 原分支文件保留，两个仓库不会自动同步。
 
 返回 [仓库导航](../README.md)。
