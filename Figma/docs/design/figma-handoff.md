@@ -1,6 +1,6 @@
 # Figma 设计交接与代码接入
 
-本文件提供通用工作流程及填写规范，不记录某个项目已完成的设计。采用时以真实项目资料填写 [状态记录](figma-state.json)，并选择或替换 [token 示例](figma-tokens.json)。工程与交付规则分别归属 [Code](../../../Code/0.0.1/ALL_AI_CODE.md) 和 [项目记录规则](../../../Code/0.0.1/AI_PROJECT_RULES.md)。
+本文件提供通用工作流程及填写规范，不记录某个项目已完成的设计。采用时以真实项目资料填写 [figma-state.json](figma-state.json)，并选择或替换 [figma-tokens.json](figma-tokens.json)。工程与交付规则分别归属 [ALL_AI_CODE.md](../../../Code/0.0.1/ALL_AI_CODE.md) 和 [AI_PROJECT_RULES.md](../../../Code/0.0.1/AI_PROJECT_RULES.md)。
 
 ## 项目配置与前置
 
@@ -22,7 +22,7 @@
 | --- | --- | --- |
 | UI/UX Pro Max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/7246805992a42b7bba37d4cac83b01416f0c6c44/.claude/skills/ui-ux-pro-max/SKILL.md) | 需求、交互、可访问性、布局与设计系统候选；按实际栈检索，不假定框架。需要脚本时连同其数据和引用读取。 |
 | Hallmark 1.1.0 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark/blob/13ac0ec7e148655948100b6396439e481361d690/skills/hallmark/SKILL.md) | 视觉层级、字体、token、一致性和截图复核；应用共用一套系统，不套营销页章节或逐页随机主题。 |
-| Open Design | [nexu-io/open-design skills 目录](https://github.com/nexu-io/open-design/tree/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills) | 设计能力集合，不是一个万能转换器；[Figma 实现入口](https://github.com/nexu-io/open-design/blob/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills/figma-implement-design/SKILL.md)仅为上游流程目录，执行应使用完整 Figma 技能及可用工具。 |
+| Open Design | [nexu-io/open-design/skills](https://github.com/nexu-io/open-design/tree/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills) | 设计能力集合，不是一个万能转换器；[figma-implement-design/SKILL.md](https://github.com/nexu-io/open-design/blob/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills/figma-implement-design/SKILL.md)仅为上游流程目录，执行应使用完整 Figma 技能及可用工具。 |
 | Taste v2 experimental | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/blob/c924fad1a79c7d70a04bcc8c415b593e9928ad8a/skills/taste-skill/SKILL.md) | 明确不适用于 dashboard/app screens；应用界面不以其营销页脚本、大图数量和动画数量作为门槛。仅保留通用审美复查参考，不能称完整采用 v2。 |
 | shadcn 官方 skill | [shadcn-ui/ui](https://github.com/shadcn-ui/ui/blob/30a58d4498f270af1c1e981a7d78a15cf5740841/skills/shadcn/SKILL.md) | 设计前判断组件可实现性，接入时复用组件与主题。配置、底层 primitives、组件 API 以实际安装版本为准；不自动初始化项目或覆盖 preset。 |
 
@@ -79,7 +79,7 @@ figma-tokens.json 保留可选的颜色、尺寸、字体数值和别名关系�
 
 ## 资源许可
 
-按 [资源登记规范](figma-asset-licenses.md) 登记实际采用资源。保留的许可证正文是参考材料，不代表新项目已经采用、已核验或已完成分发要求。
+按 [figma-asset-licenses.md](figma-asset-licenses.md) 登记实际采用资源。保留的许可证正文是参考材料，不代表新项目已经采用、已核验或已完成分发要求。
 
 ## 验证与续接
 
