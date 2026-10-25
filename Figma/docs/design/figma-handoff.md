@@ -21,6 +21,7 @@
 | Skill | 上游固定入口 | 采用时的职责与限制 |
 | --- | --- | --- |
 | UI/UX Pro Max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/7246805992a42b7bba37d4cac83b01416f0c6c44/.claude/skills/ui-ux-pro-max/SKILL.md) | 需求、交互、可访问性、布局与设计系统候选；按实际栈检索，不假定框架。需要脚本时连同其数据和引用读取。 |
+| Impeccable 4.7.1 | [pbakaus/impeccable/.agents/skills/impeccable/SKILL.md](https://github.com/pbakaus/impeccable/blob/936867543ac2576920d663cc9803597f6044f3ac/.agents/skills/impeccable/SKILL.md) | 排版、布局、信息层级、文案与设计系统一致性审查；按界面任务选择 Operate / Read 等模式，服从已确认方向。通过 Figma 专用工具落地，代码检测器不能直接证明 Figma 或真实产品验收通过。 |
 | Hallmark 1.1.0 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark/blob/13ac0ec7e148655948100b6396439e481361d690/skills/hallmark/SKILL.md) | 视觉层级、字体、token、一致性和截图复核；应用共用一套系统，不套营销页章节或逐页随机主题。 |
 | Open Design | [nexu-io/open-design/skills](https://github.com/nexu-io/open-design/tree/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills) | 设计能力集合，不是一个万能转换器；[figma-implement-design/SKILL.md](https://github.com/nexu-io/open-design/blob/1343f374c63d7866f4f3ff5d48ef038eba647f1b/skills/figma-implement-design/SKILL.md)仅为上游流程目录，执行应使用完整 Figma 技能及可用工具。 |
 | Taste v2 experimental | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/blob/c924fad1a79c7d70a04bcc8c415b593e9928ad8a/skills/taste-skill/SKILL.md) | 明确不适用于 dashboard/app screens；应用界面不以其营销页脚本、大图数量和动画数量作为门槛。仅保留通用审美复查参考，不能称完整采用 v2。 |
@@ -28,6 +29,39 @@
 
 
 Open Design 参考来源为 nexu-io/open-design，避免同名项目混用。技能不能扩大任务授权；不可用时记录实际缺口，使用可用能力继续，不伪造执行结果。
+
+
+## Impeccable 接入与安装
+
+规则引用、技能安装、实际执行和验收通过是四种不同状态，分别记录；引用上游链接不会自动安装技能。
+
+### 采用边界
+
+- 首次采用外部 UI skill 前，确认用户已授权其来源和用途；同一任务中的有效授权可持续使用，不对每次审查重复索取许可。审查请求保持只读；修复与 Figma 写入沿用实际任务授权。
+- 本套规则不替换宿主权限和 Code/Figma 的职责。Impeccable 提供设计方法，当前环境的 Figma 专用技能与工具负责可编辑节点、变量、组件和原型操作。
+- 应用工具和编辑器优先使用 Operate 的一致性与操作效率要求；帮助正文按 Read 组织。不能将营销页表现、装饰密度或通用字体偏好强加给已确认产品。
+- 同一项目维护一个设计权威来源。其他技能可提供审查意见，但不得各自建立配色和尺寸体系。PRODUCT.md、DESIGN.md 或已有等价文档属于目标项目；沿用已有资料，必要的接入文件只作引用和补充，不覆盖原资料，也不把项目状态写回本规则库。
+
+### 安装与版本
+
+本次来源固定为 Impeccable 4.7.1，提交 `936867543ac2576920d663cc9803597f6044f3ac`，目录 `.agents/skills/impeccable`。上游采用 [Apache-2.0 LICENSE](https://github.com/pbakaus/impeccable/blob/936867543ac2576920d663cc9803597f6044f3ac/LICENSE)；复制或分发时保留相应许可和归属信息。升级应重新核对入口、引用、运行依赖及行为，更新版本记录，不能把 main 的变化当作已批准规则。
+
+在提供 `skill-installer` 的 Codex 环境中，可明确请求：
+
+> 使用 $skill-installer，从 pbakaus/impeccable 的提交 936867543ac2576920d663cc9803597f6044f3ac 安装 .agents/skills/impeccable，安装为用户级 impeccable；保留完整引用与脚本，已有同名目录时先核对，不覆盖。
+
+以当前安装器实际返回的目录为准；本规则库既不克隆自身来完成安装，也不包含完整上游技能副本。仅下载 SKILL.md 会缺少 reference、scripts 等配套内容。安装须遵守宿主权限和项目文件操作限制；安装器的临时清理也不能绕过禁止批量删除等约束。
+
+安装后检查 SKILL.md 的名称/版本和配套文件，再在下一轮确认宿主发现了该技能。需要显式调用时可使用 `$impeccable critique` 并指定设计范围。存在、发现、调用成功分别核实；不能仅凭目录存在就声称所有命令可用。
+
+4.7.1 的 context 启动器使用独立引擎，首次运行可能下载相应平台的二进制文件。安装技能文件不等于引擎已运行。Windows 按上游使用实际技能目录下的 scripts/impeccable.cmd；无法运行时按上游回退流程读取现有项目上下文，不伪报检测通过。浏览器 live、hooks、自动修改源码或批量清理不因安装技能而自动启用。
+
+### 与 Figma 的复核闭环
+
+1. 先核对用户方向、实际组件、变量和代表性界面，登记现有不一致点及其共用根因。
+2. 按需使用 critique / layout / typeset / distill / polish 的适用方法；先统一基础与组件，再更新受影响页面，避免用局部尺寸覆盖掩盖共用规则缺失。
+3. 在相同窗口、主题和缩放下并排复核主界面、设置、菜单、浮层、对话框及其状态，检查字体、间距、对齐、密度、图标、表面层次与动作位置。容器不同不等于设计语言可以不同。
+4. 记录真实 Figma 节点与截图证据，分别报告结构检查、视觉审查、原型回放和代码检测结果。Impeccable 的建议与代码检查不能代替真实功能或用户验收。
 
 ## 执行与交付
 
